@@ -1,0 +1,58 @@
+/*HEADER START*/
+#Name_Company{
+	font-size: 25px;
+	color: white;
+}
+/*HEADER END*/
+#desc{
+	width: 200px;
+	height: 35px;
+	word-wrap:break-word;
+}
+
+.price_color{
+	color: red;
+}
+
+@media (max-width: 575px) { 
+.col-xs-12{
+	float: none !important;
+	margin: 0 auto !important;
+}
+}
+
+
+/*BROWSER SOLUTION STAERT*/
+
+/*INPUT RIGHT*/
+/* webkit solution */
+::-webkit-input-placeholder { text-align:right; }
+/* mozilla solution */
+input::-moz-placeholder { text-align:right; }
+/*IE solution*/
+input:-ms-input-placeholder{ text-align:right; }
+/*INPUT RIGHT*/
+
+/*microsoft edge solution*/
+_:-ms-lang(x), _:-webkit-full-screen, .f_center {
+        text-align: center;
+    }
+
+/*mozilla solution for form center*/
+_:-moz-tree-row(hover), .f_center {
+    text-align: center;
+}
+   
+/*BROWSER SOLUTION END*/
+
+
+#footer {
+  background-color:#414141;
+}
+
+#footer_text{
+	padding-top: 2px;
+	font-size: 18px;
+	color: white;
+	float: right;
+}
